@@ -92,15 +92,6 @@ header a:hover {
 
 .main img {
     width: 100%;
-    filter: grayscale(40%);
-    filter: blur(1px);
-    transition: 0.25s;
-}
-
-.main img:hover {
-    filter: grayscale(0%);
-    filter: blur(0px);
-
 }
 
             /* <------- Cierra Foto Inicio -------> */  
@@ -143,5 +134,4 @@ section {
     margin: 20px;
     text-align: center;
 }
-
 
