@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+            /* <------- Header -------> */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); */
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+header nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+}
+
+header nav a:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.contactanos {
+    width: 20%;
+}
+
+.contactanos button {
+    height: 45px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 0 20px;
+    border: none;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.contactanos button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+            /* <------- Cierra Header -------> */  
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h1 {
+    width: 45%;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.main p {
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+section {
+    width: 100%;
+    height: 227px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0 0 0;
+    background-color: white;
+}
+
+section article:nth-child(1) {
+    width: 46%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section article:nth-child(2) {
+    width: 46%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+            /* <------- Footer -------> */  
+
+footer nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+footer nav a {
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+}
+
+            /* <------- Cierra Footer -------> */  
+
