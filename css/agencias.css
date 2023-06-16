@@ -87,18 +87,14 @@ header nav a:hover {
             /* <------- Cierra Header -------> */  
 
 .main {
-    width: 100%;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 0 0 40px 0;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
 }
 
 .main h1 {
-    width: 65%;
-    font-size: 35px;
-    text-align: center;
-    margin: 50px 0 0 0;
     color: dodgerblue;
 }
 
@@ -109,78 +105,72 @@ header nav a:hover {
 
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.auto {
-    width: 98%;
-    height: 305px;
-    border-radius: 10px;
-    display: flex;
-    padding: 10px;
-    background-color: dodgerblue;
-    color: black;
-    margin: 30px 0 30px 0;
-    box-sizing: border-box;
-    border: 5px solid black;
-}
-
-.especificaciones {
-    width: 50%;
-    height: 100%;
-}
-
-.especificaciones h1 {
-    text-align: center;
-}
-
-.boton {
-    display: flex;
     justify-content: center;
 }
 
-.boton button {
-    height: 30px;
-    width: 120px;
-    background-color: black;
-    color: white;
+.agencias {
+    width: 99%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
 
-    font-size: 16px;
+.agencia {
+    width: 30%;
+    height: 90%;
+    margin: 20px;
+}
+
+.imagen {
+    width: 100%;
+    height: 60%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ubicacion {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ubicacion h3 {
+    font-size: 22px;
+}
+
+.ubicacion p {
+    margin: 20px 0;
+}
+
+.ubicacion button {
+    width: 100px;
+    height: 46px;
+    background-color: black;
+    border: 0;
+    color: white;
     font-weight: 600;
-    border: none;
-    border-radius: 50px;
     transition: 0.5s;
 }
 
-.boton button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.50);
+.ubicacion button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
-.boton button:active {
+.ubicacion button:active {
     background-color: black;
     color: white;
     transition: 0s;
-}
-
-.galeria {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.galeria img {
-    width: 440px;
-    height: 280px;
-    margin: 0 30px 0 0;
-    border-radius: 10px;
-    border: 5px solid black;
-    box-sizing: border-box;
 }
 
             /* <------- Footer -------> */  

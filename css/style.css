@@ -16,7 +16,7 @@ header {
     align-items: center;
     width: 100%;
     height: 70px;
-    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); */
+    background-color: white;
 }
 
 .logo {
@@ -67,7 +67,7 @@ header nav a:hover {
 .contactanos button {
     height: 45px;
     width: 120px;
-    background-color: black;
+    background-color: dodgerblue;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -98,11 +98,12 @@ header nav a:hover {
     font-size: 50px;
     text-align: center;
     margin: 50px 0 0 0;
+    color: dodgerblue;
 }
 
-.main p {
-    font-weight: 500;
-    margin: 10px 0 0 0;
+.main h2 {
+    font-weight: 600;
+    font-size: 20px;
 }
 
 section {
@@ -127,7 +128,87 @@ section article:nth-child(2) {
     font-weight: 700;
 }
 
+.clientes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.clientes h1 {
+    margin: 40px 0;
+    text-align: center;
+    width: 50%;
+    color: dodgerblue;
+}
+
+.reseñas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.reseñas .reseñas-box {
+    background-color: dodgerblue;
+    width: 360px;
+    height: 210px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.nombre {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nombre img {
+    height: 100%;
+    border-radius: 50%;
+    margin: 0px 20px 0px 10px;
+}
+
+.nombre h4 {
+    font-size: 20px;
+}
+
+.reseña {
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.reseña p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.modelos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.modelos a {
+    color: dodgerblue;
+}
+
+
+
             /* <------- Footer -------> */  
+
+footer {
+    height: 80px;
+}
 
 footer nav {
     width: 100%;
