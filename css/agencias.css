@@ -272,4 +272,14 @@ footer nav ul li {
     header nav {
         width: 100%;
     }
+
+    .agencias {
+        flex-direction: column;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .agencia {
+        width: 100%;
+    }
 } 
