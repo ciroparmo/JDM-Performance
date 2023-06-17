@@ -128,7 +128,7 @@ header nav a:hover {
     color: black;
     margin: 30px 0 30px 0;
     box-sizing: border-box;
-    box-shadow: 0 0 30px black;
+    box-shadow: 0 0 5px black;
 
 }
 
@@ -153,13 +153,13 @@ header nav a:hover {
     border: 0;
     color: white;
     font-weight: 600;
-    transition: 0.5s;
+    border: 2px solid black;
+    transition: 0.25s;
 }
 
 .boton button:hover {
     background-color: white;
     color: black;
-    border: 2px solid black;
 }
 
 .boton button:active {
@@ -215,3 +215,85 @@ footer nav ul li {
 }
  
              /* <------- Cierra Footer -------> */  
+
+@media only screen and (max-width: 1024px) {
+    .auto {
+        flex-direction: column;
+    }
+
+    .galeria {
+        width: 100%;
+        justify-content: center;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .especificaciones {
+        width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 650px) {
+    .main {
+    padding: 60px 0;
+    box-sizing: border-box;
+    }
+    
+    .main h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .main h2 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .auto {
+        flex-direction: column;
+    }
+
+    .galeria {
+        width: 100%;
+        justify-content: center;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .especificaciones {
+        width: 100%;
+    }
+
+    header nav a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .contactanos button {
+        padding: 10px;
+    }
+
+    .logo {
+        margin: 90px 0 0 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    header nav {
+        width: 100%;
+    }
+} 

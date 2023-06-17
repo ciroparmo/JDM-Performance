@@ -87,16 +87,18 @@ header nav a:hover {
             /* <------- Cierra Header -------> */  
 
 .main {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 200px;
+    flex-direction: column;
 }
 
 .main h1 {
-    color: dodgerblue;
+    width: 60%;
+    font-size: 50px;
     text-align: center;
+    margin: 50px 0 0 0;
+    color: dodgerblue;
 }
 
 .main h2 {
@@ -104,77 +106,9 @@ header nav a:hover {
     font-size: 20px;
 }
 
-.container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.agencias {
-    width: 100%;
-    height: auto;
-    background-color: dodgerblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.agencia {
-    width: 30%;
-    height: 90%;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 0 0 25px black;
-}
-
-.imagen {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.imagen img {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.ubicacion {
-    width: 100%;
-    height: auto;
-    background-color: white;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.ubicacion h3 {
-    font-size: 22px;
-}
-
-.ubicacion p {
-    margin: 20px 0;
-}
-
-.ubicacion button {
-    width: 100px;
-    height: 46px;
-    background-color: black;
-    border: 0;
-    color: white;
-    font-weight: 600;
-    border: 2px solid black;    
-    transition: 0.25s;
-}
-
-.ubicacion button:hover {
-    background-color: white;
-    color: black;
-}
-
-.ubicacion button:active {
-    background-color: black;
-    color: white;
-    transition: 0s;
+.pyp {
+    margin: 30px 0;
+    padding: 30px;
 }
 
             /* <------- Footer -------> */  
@@ -195,50 +129,34 @@ footer nav ul li {
     list-style: none;
     display: inline;
 }
- 
- footer nav a {
+
+footer nav a {
     color: rgb(122, 122, 122);
     text-decoration: none;
     font-weight: 600;
     font-size: 13px;
     padding: 10px 20px 10px 20px;
 }
- 
-             /* <------- Cierra Footer -------> */  
+
+            /* <------- Cierra Footer -------> */  
+
+            /* <------- Responsive -------> */
 
 @media only screen and (max-width: 650px) {
     .main {
     padding: 60px 0;
     box-sizing: border-box;
-    margin: 50px;
     }
     
     .main h1 {
         width: 100%;
         font-size: 25px;
-        padding: 50px;
-        box-sizing: border-box;
     }
 
     .main h2 {
         width: 100%;
         font-size: 20px;
         text-align: center;
-    }
-    
-    .auto {
-        flex-direction: column;
-    }
-
-    .galeria {
-        width: 100%;
-        justify-content: center;
-        margin: 10px;
-        box-sizing: border-box;
-    }
-
-    .especificaciones {
-        width: 100%;
     }
 
     header nav a {
@@ -272,4 +190,4 @@ footer nav ul li {
     header nav {
         width: 100%;
     }
-} 
+}
