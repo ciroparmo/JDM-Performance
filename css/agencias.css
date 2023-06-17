@@ -109,13 +109,11 @@ header nav a:hover {
 }
 
 .agencias {
-    width: 99%;
+    width: 100%;
     background-color: dodgerblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    border-radius: 10px;
 }
 
 .agencia {
