@@ -109,21 +109,27 @@ header nav a:hover {
 
 .container {
     display: flex;
+    justify-content: center;
+}
+
+.autos {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: dodgerblue;
+    width: 100%;
 }
 
 .auto {
-    width: 98%;
-    height: 305px;
-    border-radius: 10px;
+    width: 95%;
     display: flex;
     padding: 10px;
-    background-color: dodgerblue;
+    background-color: white;
     color: black;
     margin: 30px 0 30px 0;
     box-sizing: border-box;
-    border: 5px solid black;
+    box-shadow: 0 0 30px black;
+
 }
 
 .especificaciones {
@@ -141,23 +147,19 @@ header nav a:hover {
 }
 
 .boton button {
-    height: 30px;
-    width: 120px;
+    width: 100px;
+    height: 46px;
     background-color: black;
+    border: 0;
     color: white;
-
-    font-size: 16px;
     font-weight: 600;
-    border: none;
-    border-radius: 50px;
     transition: 0.5s;
 }
 
 .boton button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.50);
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
 
 .boton button:active {
@@ -172,16 +174,18 @@ header nav a:hover {
     display: flex;
     justify-content: right;
     align-items: center;
+    overflow: hidden;
 }
 
 .galeria img {
     width: 440px;
     height: 280px;
     margin: 0 30px 0 0;
-    border-radius: 10px;
-    border: 5px solid black;
     box-sizing: border-box;
+    box-shadow: 0 0 20px black;
 }
+
+
 
             /* <------- Footer -------> */  
 

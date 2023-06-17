@@ -163,7 +163,7 @@ header nav a:hover {
 .ubicacion button:hover {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .ubicacion button:active {
