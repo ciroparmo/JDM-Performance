@@ -239,6 +239,7 @@ footer nav a {
     .main {
     padding: 60px 0;
     box-sizing: border-box;
+    height: auto;
     }
     
     .main h1 {
@@ -255,6 +256,7 @@ footer nav a {
     section {
         flex-direction: column;
         width: 100%;
+        height: auto;
         justify-content: center;
     }
 

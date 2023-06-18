@@ -255,7 +255,7 @@ footer nav ul li {
     }
 
     .galeria {
-        width: 100%;
+        width: auto;
         justify-content: center;
         margin: 10px;
         box-sizing: border-box;
